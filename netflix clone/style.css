@@ -1,0 +1,292 @@
+body{
+    background-color: #141414;
+    overflow-x: hidden;
+    
+
+    height: 200vh;
+    width: 100%;
+   
+}
+.TITLE{
+    color: #E50914;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px ;
+    margin-left:10px;
+}
+.navbar{
+    display: flex;
+    color: white;
+    gap: 1%;
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    position: relative;
+    top:-50px;
+    left:8%;
+}
+.navbar h3:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.search{
+    position: relative;
+    left: 40%;
+    font-size: 20px;
+    top: -10px;
+}
+.bell{
+    position: relative;
+    left: 45%;
+    font-size: 20px;
+    top: -10px;
+}
+.account{
+    position: relative;
+    left: 42%;
+    font-size: 20px;
+    top: -10px;
+}
+.child{
+    position:relative;
+    left:38%;
+    font-size: 15px;
+    top: -2px;
+    
+}
+.video{
+    
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    top: -120px;
+    z-index: -1;
+    border-radius: 5px;
+}
+.container1>.item{
+  width: 250px;
+  height: 140px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  margin-right: 12px;
+  background-color: aliceblue;
+}
+.container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  top: -150px;
+}
+.container1 > .item {
+    transition: transform 0.3s;
+}
+
+.container1 > .item:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 8px 32px 0  rgb(44, 44, 45);
+}
+.container2>.item{
+    width: 250px;
+    height: 140px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 12px;
+    background-color: aliceblue;
+    top:-1270px
+
+}
+.container2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+  top: -150px;
+}
+.container2 > .item {
+    transition: transform 0.3s;
+}
+
+.container2 > .item:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 8px 32px 0  rgb(44, 44, 45);
+}
+.container3>.item{
+    width: 250px;
+    height: 140px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 12px;
+    background-color: aliceblue;
+    top:-2570px
+
+}
+.container3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+  top: -150px;
+}
+.container3> .item {
+    transition: transform 0.3s;
+}
+
+.container3 > .item:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 8px 32px 0  rgb(44, 44, 45);
+
+}
+.container4>.item{
+    width: 250px;
+    height: 140px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 12px;
+    background-color: aliceblue;
+    top:-3870px
+
+}
+.container4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+  top: -150px;
+}
+.container4 > .item {
+    transition: transform 0.3s;
+}
+
+.container4 > .item:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0  rgb(44, 44, 45);
+    z-index: 10;
+}
+.navbar{
+    position:sticky;
+    top: 3px;
+    z-index: 10;
+   
+}
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+.item {
+  width: 250px;
+  height: 140px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  margin-right: 12px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.netflix-footer {
+  background-color: #141414;
+  color: #777;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  top: -5300px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #e50914;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #777;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.service-code {
+  background: transparent;
+  border: 1px solid #777;
+  color: #777;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.service-code:hover {
+  color: white;
+  border-color: white;
+}
+
+.netflix-footer p {
+  font-size: 12px;
+  color: #777;
+}
+.video {
+  width: 100%;
+  height: 95vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
